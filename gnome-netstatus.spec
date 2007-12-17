@@ -6,7 +6,6 @@ License: GPL
 Group: Graphical desktop/GNOME
 URL: http://www.gnome.org/
 Source0: ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libpanel-applet-devel
 BuildRequires: libglade2.0-devel
 BuildRequires: gtk+2-devel >= 2.3.1
