@@ -1,11 +1,12 @@
 Summary: GNOME network information applet
 Name: gnome-netstatus
-Version: 2.12.2
+Version: 2.26.0
 Release: %mkrel 1
 License: GPLv2+
 Group: Graphical desktop/GNOME
 URL: http://www.gnome.org/
 Source0: ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
+Patch0: gnome-netstatus-2.26.0-fix-str-fmt.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libpanel-applet-devel
 BuildRequires: libglade2.0-devel
@@ -23,11 +24,10 @@ about a network interface on your panel.
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
-
 %configure2_5x
-
 %make
 
 %install
