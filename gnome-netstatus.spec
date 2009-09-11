@@ -1,7 +1,7 @@
 Summary: GNOME network information applet
 Name: gnome-netstatus
 Version: 2.26.0
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPLv2+
 Group: Graphical desktop/GNOME
 URL: http://www.gnome.org/
