@@ -1,6 +1,6 @@
 Summary: GNOME network information applet
 Name: gnome-netstatus
-Version: 2.28.1
+Version: 2.28.2
 Release: %mkrel 1
 License: GPLv2+
 Group: Graphical desktop/GNOME
