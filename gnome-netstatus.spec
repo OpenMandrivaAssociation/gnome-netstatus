@@ -4,7 +4,7 @@ Version: 2.28.2
 Release: %mkrel 2
 License: GPLv2+
 Group: Graphical desktop/GNOME
-URL: http://www.gnome.org/
+URL: https://www.gnome.org/
 Source0: ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
 Patch0: gnome-netstatus-2.26.0-fix-str-fmt.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
